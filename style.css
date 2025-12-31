@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.hero {
+.hero .hero{
   height: 80vh;
   position: relative;
   overflow: hidden;
@@ -22,10 +22,11 @@ body {
 
 .slider img {
   position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 50%;
+  object-fit: cover;          /* alanı tam kaplasın */
+  object-position: center;    /* ortadan kırpsın */
   opacity: 0;
   transition: opacity 1s ease;
 }
@@ -252,5 +253,6 @@ section {
 .card h3 {
   margin-bottom: 12px;
 }
+
 
 
