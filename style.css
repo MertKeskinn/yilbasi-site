@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.hero .hero{
+.hero {
   height: 80vh;
   position: relative;
   overflow: hidden;
@@ -253,6 +253,11 @@ section {
 .card h3 {
   margin-bottom: 12px;
 }
+.slider {
+  position: absolute;
+  inset: 0;          /* top:0 left:0 right:0 bottom:0 */
+}
+
 
 
 
