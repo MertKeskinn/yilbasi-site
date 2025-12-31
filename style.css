@@ -243,7 +243,7 @@ section {
 }
 @media (max-width: 768px) {
   .hero {
-    height: 60vh;
+    height: 50vh;
   }
 
   .slider img {
@@ -258,3 +258,4 @@ section {
 .card h3 {
   margin-bottom: 12px;
 }
+
